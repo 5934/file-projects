@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>35 class</title>
+     <script>
+        function myproject() {
+            document.getElementById("demo").innerHTML ="content is now changed! congratulations!"
+        }
+     </script>
+    </head>
+    <body>
+        <h2>What can Javascript do?</h2>
+
+        <p id="demo">Javascript can change HTML content.</p>
+
+        <script src="pspractice.js"></script>
+        
+         <button type="button" oneclick='document.getElementById("demo").innerHTML= "Hello Javascript!"'>Click Me</button>     
+         <button type="button" oneclick='document.getElementById("demo").innerHTML= "You have changed the content!"'>Click Me Now To Change The InnerHTML</button><br>     
+         
+         
+
+         <img id="image" src="pic_bulboff.gif" alt="bulb" style="width: 100px;"><br> <br>
+         <button onclick="document.getElementById('image').src ='pic_bulbon.gif'">Turn on</button>
+         <button onclick="document.getElementById('image').src ='pic_bulboff.gif'">Turn off</button><br> <br>
+         <button onclick="document.getElementById(any).style.display ='none'">Change Fontsize</button><br>
+    </body>
+</html>
